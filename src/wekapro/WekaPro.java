@@ -30,18 +30,24 @@ public class WekaPro {
         // System.out.println(model.testSet.toSummaryString());
         // model.saveDataToCSV("C:\\Users\\KameDev\\Documents\\ARFF\\vidux.csv");
 
-        // DecisionTreeModel model = new DecisionTreeModel("/Users/kamedev/Documents/Code/Java/data/iris.arff", "-C 0.25 -M 2", null);
-        // model.buildDecisionTree();
-        // model.evaluatedDecisionTree();
-        // System.out.println(model);
-        // // model.saveModel("/Users/kamedev/Documents/Code/Java/decisionModel", model.tree);
+        DecisionTreeModel model = new DecisionTreeModel("/Users/kamedev/Documents/Code/Java/WekaPro/data/iris.arff", "-C 0.25 -M 2", null);
+        model.buildDecisionTree();
+        model.evaluatedDecisionTree();
+        System.out.println(model);
+        // model.saveModel("/Users/kamedev/Documents/Code/Java/decisionModel", model.tree);
         // model.tree = (J48)model.loadModel("/Users/kamedev/Documents/Code/Java/decisionModel");
         // model.predictClassLabel(model.testSet);
 
-        DecisionTreeModel model = new DecisionTreeModel();
-        model.buildRandomForest("/Users/kamedev/Documents/Code/Java/WekaPro/data/iris_train.arff");
-        model.evaluatedRandomForest("/Users/kamedev/Documents/Code/Java/WekaPro/data/iris_test.arff");
-        model.predictClassLabel("/Users/kamedev/Documents/Code/Java/WekaPro/data/iris_unlabel.arff", "/Users/kamedev/Documents/Code/Java/WekaPro/data/iris_predict_nb.arff");
-        System.out.println(model);
+        // NaiveBayesModel model = new NaiveBayesModel();
+        // model.buildNaiveBayes("/Users/kamedev/Documents/Code/Java/WekaPro/data/labor_train.arff");
+        // model.evaluatedNaiveBayes("/Users/kamedev/Documents/Code/Java/WekaPro/data/labor_test.arff");
+        // model.predictClassLabel("/Users/kamedev/Documents/Code/Java/WekaPro/data/labor_unlabel.arff", "/Users/kamedev/Documents/Code/Java/WekaPro/data/labor_predict_nb.arff");
+        // System.out.println(model);
+
+        // DecisionTreeModel model = new DecisionTreeModel();
+        // model.buildRandomForest("/Users/kamedev/Documents/Code/Java/WekaPro/data/iris_train.arff");
+        // model.evaluatedRandomForest("/Users/kamedev/Documents/Code/Java/WekaPro/data/iris_test.arff");
+        // model.predictClassLabel("/Users/kamedev/Documents/Code/Java/WekaPro/data/iris_unlabel.arff", "/Users/kamedev/Documents/Code/Java/WekaPro/data/iris_predict_nb.arff");
+        // System.out.println(model);
     }
 }
