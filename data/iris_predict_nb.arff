@@ -1,0 +1,19 @@
+@relation iris-weka.filters.unsupervised.instance.Resample-S1-Z80.0-no-replacement-V
+
+@attribute sepallength numeric
+@attribute sepalwidth numeric
+@attribute petallength numeric
+@attribute petalwidth numeric
+@attribute class {Iris-setosa,Iris-versicolor,Iris-virginica}
+
+@data
+4.6,3.2,1.4,0.2,Iris-setosa
+7.1,3,5.9,2.1,Iris-virginica
+4.6,3.6,1,0.2,Iris-setosa
+6.2,2.8,4.8,1.8,Iris-virginica
+5,3.5,1.3,0.3,Iris-setosa
+6.5,2.8,4.6,1.5,Iris-versicolor
+5.9,3,5.1,1.8,Iris-virginica
+4.9,3.1,1.5,0.1,Iris-setosa
+5.2,3.4,1.4,0.2,Iris-setosa
+6.5,3,5.5,1.8,Iris-virginica
