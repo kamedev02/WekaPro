@@ -1,26 +1,19 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2636
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+@relation iris-weka.filters.unsupervised.instance.Resample-S1-Z80.0-no-replacement-V
 
-\f0\fs24 \cf0 @relation iris-weka.filters.unsupervised.instance.Resample-S1-Z80.0-no-replacement-V\
-\
-@attribute sepallength numeric\
-@attribute sepalwidth numeric\
-@attribute petallength numeric\
-@attribute petalwidth numeric\
-@attribute class \{Iris-setosa,Iris-versicolor,Iris-virginica\}\
-\
-@data\
-4.6,3.2,1.4,0.2,Iris-setosa\
-7.1,3,5.9,2.1,Iris-virginica\
-4.6,3.6,1,0.2,Iris-setosa\
-6.2,2.8,4.8,1.8,Iris-virginica\
-5,3.5,1.3,0.3,Iris-setosa\
-6.5,2.8,4.6,1.5,Iris-versicolor\
-5.9,3,5.1,1.8,Iris-virginica\
-4.9,3.1,1.5,0.1,Iris-setosa\
-5.2,3.4,1.4,0.2,Iris-setosa\
-6.5,3,5.5,1.8,Iris-virginica}
+@attribute sepallength numeric
+@attribute sepalwidth numeric
+@attribute petallength numeric
+@attribute petalwidth numeric
+@attribute class {Iris-setosa,Iris-versicolor,Iris-virginica}
+
+@data
+4.6,3.2,1.4,0.2,Iris-setosa
+7.1,3,5.9,2.1,Iris-virginica
+4.6,3.6,1,0.2,Iris-setosa
+6.2,2.8,4.8,1.8,Iris-virginica
+5,3.5,1.3,0.3,Iris-setosa
+6.5,2.8,4.6,1.5,Iris-versicolor
+5.9,3,5.1,1.8,Iris-virginica
+4.9,3.1,1.5,0.1,Iris-setosa
+5.2,3.4,1.4,0.2,Iris-setosa
+6.5,3,5.5,1.8,Iris-virginica

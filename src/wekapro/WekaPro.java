@@ -39,9 +39,9 @@ public class WekaPro {
         // model.predictClassLabel(model.testSet);
 
         NaiveBayesModel model = new NaiveBayesModel();
-        model.buildNaiveBayes("/Users/kamedev/Documents/Code/Java/data/labor_train.arff");
-        model.evaluatedNaiveBayes("/Users/kamedev/Documents/Code/Java/data/labor_test.arff");
-        model.predictClassLabel("/Users/kamedev/Documents/Code/Java/data/labor_unlabel.arff", "/Users/kamedev/Documents/Code/Java/data/labor_predict_nb.arff");
+        model.buildNaiveBayes("/Users/kamedev/Documents/Code/Java/WekaPro/data/labor_train.arff");
+        model.evaluatedNaiveBayes("/Users/kamedev/Documents/Code/Java/WekaPro/data/labor_test.arff");
+        model.predictClassLabel("/Users/kamedev/Documents/Code/Java/WekaPro/data/labor_unlabel.arff", "/Users/kamedev/Documents/Code/Java/WekaPro/data/labor_predict_nb.arff");
         System.out.println(model);
     }
 }
