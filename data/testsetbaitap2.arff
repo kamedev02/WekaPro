@@ -1,0 +1,12 @@
+@relation baitap2.cayquyetdinh
+
+@attribute Gender {Male, Female}
+@attribute Carownership {0, 1, 2}
+@attribute TravelCost($)/km  {Cheap, Standard, Expensive}
+@attribute Incomelevel {Low, Medium, High}
+@attribute Transportationmode {Car, Train, Bus}
+
+@data
+Male,1,Standard,High,Train
+Male,0,Cheap,Medium,Bus
+Female,1,Cheap,High,Train

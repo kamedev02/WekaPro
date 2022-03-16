@@ -29,8 +29,8 @@ public class DecisionTreeModel extends KnowledgeModel{
     
     public void buildDecisionTree() throws Exception{
         //Tao tap du lieu train test
-        this.trainSet = divideTrainTestR(this.wekaDataset, 30, false);
-        this.testSet = divideTrainTestR(this.wekaDataset, 30, true);
+        this.trainSet = divideTrainTest(this.wekaDataset, 20, false);
+        this.testSet = divideTrainTest(this.wekaDataset, 20, true);
 
         this.trainSet.setClassIndex(this.trainSet.numAttributes()-1);
         this.testSet.setClassIndex(this.testSet.numAttributes()-1);
