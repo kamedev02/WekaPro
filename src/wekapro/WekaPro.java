@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package wekapro;
-//import weka.classifiers.trees.J48;
+import weka.classifiers.trees.J48;
 /**
  *
  * @author KameDev
@@ -30,7 +30,7 @@ public class WekaPro {
         // System.out.println(model.testSet.toSummaryString());
         // model.saveDataToCSV("C:\\Users\\KameDev\\Documents\\ARFF\\vidux.csv");
 
-        DecisionTreeModel model = new DecisionTreeModel("/Users/kamedev/Documents/Code/Java/WekaPro/data/labor.arff", "-C 0.25 -M 2", null);
+        DecisionTreeModel model = new DecisionTreeModel("/Users/kamedev/Downloads/DataMining/baitap2cayquyetdinh.arff", "-C 0.25 -M 2", null);
         model.buildDecisionTree();
         model.evaluatedDecisionTree();
         System.out.println(model);
